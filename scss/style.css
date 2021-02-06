@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  #000000;
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background: url('../img/pexels-sebastiaan-stam.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero{
+    padding: 15px;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navLinks li{
+    margin-left: 25px;
+}
+.navLinks li a{
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#818182;
+    text-decoration: none;
+}
+.navLinks li a:hover{
+    color: #ffffff;
+    transition-duration: 0.8s;
+    /* border-bottom:  2px solid    #2DA6FA; */
+    
+}
+.header_text h2{
+    font-family: Marcellus;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    
+}
+.text_block{
+    position: relative;
+    text-align: left;
+    margin-top  : 20%;
+}
+.btn{
+    margin-top: 15px;
+}
+.watch_btn{
+    margin-right: 15px;
+    width: 141px;
+    height: 50px;
+    border-radius: 100px;
+    font-family: Mulish;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px 0px 50,108,255,0,5;
+}
+.more_btn{
+    width: 195px;
+    height: 50px;
+    border-radius: 100px;
+    outline: none;
+    font-family: Mulish;
+    font-size: 16px;
+    color: 50,50,50,1;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    cursor: pointer;
+
+}
+.text{
+    margin-top: 50px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C2C2C2;
+    width: 468px;
+
+}
+.cont{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.action_tv{
+    width: 100%;
+    position: relative;
+}
+.shows{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.action{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    height: 270px;
+}
+.card img{
+    border-radius: 20px ;
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+}
+
+.s{
+    height: 35px;
+    width: 8px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+
+}
+.show_text{
+
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+.show_title{
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    flex-direction: row;
+
+}
+.gns{
+    width: 100%;
+    margin-top: 25px;   
+}
+.gns_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.gns_card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+    width: 340px;
+    height: 198px;
+    border-radius: 20px;
+}
+.card_1{
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+}
+.card_2{
+    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+}
+.card_3{
+    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+}
+.card_4{
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+}
+.card_5{
+    background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+}
+.card_6{
+    background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+}
